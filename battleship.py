@@ -7,6 +7,8 @@ determined by the widths and heights of this function
 
 """for random import randint"""
 
+from typing import List
+
 board = []
 	
 for x in range(0,5):
@@ -19,7 +21,7 @@ def print_board(board):
 print_board(board)
 
 #defining where the ship is
-def put_row(board):
+def put_row(board: List) -> int:
     return (2)
 
 def put_col(board):
